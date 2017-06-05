@@ -3,6 +3,7 @@ Beginning Code to use Net::Twitter to store your Twitter Favorites
 
 ## Prereqs
 
+Perl Modules:
 * Carp 
 * Data::Dumper 
 * DateTime 
@@ -32,3 +33,9 @@ connecting to MySQL. I should change this so that it uses DBIx::Class, but as
 this is hobby code, I wouldn't hold my breath.
 
 twitter_favorites.sql shows the database schema used by my code.
+
+You will need to create both a key and secret for each application and a token and 
+secret for each use and each application. [The process is explained on my blog](https://varlogrant.blogspot.com/2016/08/nettwitter-cookbook-how-i-tweet-plus.html)
+and is also in [the Net::Twitter documentation](https://metacpan.org/pod/distribution/Net-Twitter/lib/Net/Twitter.pod)
+
+If you have questions or comments, create an issue or [ask me on Twitter](https://twitter.com/jacobydave/)
